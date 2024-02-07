@@ -8,7 +8,7 @@ export const Page1 = () => {
         <Link to="/page1/detailA">detailA</Link>
         <Link to="/page1/detailB">detailB</Link>
         <Routes>
-            <Route path="/page1/detailA" element= {<Page1detailA/>} render/>
+            <Route path="/page1/detailA" element= {<Page1detailA/>}/>
             <Route path="/page1/detailB" element= {<Page1detailB/>}/>
       
         </Routes>
