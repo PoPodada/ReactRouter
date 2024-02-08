@@ -5,6 +5,7 @@ import { Page1detailA } from "../page1detailA"
 import { Page1detailB } from "../page1detailB"
 import { Page2 } from "../page2"
 import { URLparameter } from "../UrlParameter"
+import { Page404 } from "../page404"
 export const Router = () => {
     return (
         <Routes>
@@ -14,6 +15,8 @@ export const Router = () => {
             <Route path="/page1/detailB" element= {<Page1detailB/>}/>
             <Route path="/page2" element= {<Page2/>}/>
             <Route path="/page2/:Id" element= {<URLparameter/>}/>
+            <Route path="*" element= {<Page404/>}/>
+
             
         </Routes>
     )
